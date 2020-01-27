@@ -13,7 +13,7 @@
     <title>Serial Cloner</title>
     <authors>SerialBasics</authors>
     <projectUrl>http://serialbasics.free.fr/Serial_Cloner.html</projectUrl>
-    <iconUrl>https://cdn.jsdelivr.net/gh/overag3/purplepen/SerialCloner.png</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/overag3/serialcloner/SerialCloner.png</iconUrl>
     <tags>serialcloner molecular biology dna</tags>
     <summary>Serial Cloner is a Molecular Biology software. It provides tools with an intuitive interface that assists you in DNA cloning, sequence analysis and visualization.</summary>
     <description>
@@ -30,7 +30,7 @@ Powerful graphical display tools and simple interfaces help the analysis and con
 - [CORRECTED] Slow down under certain Windows install due to autosaving
 - [CORRECTED] Error in definition of PreScission site
 - [CORRECTED] Save/Save As problem is PCR window
-- [CORRECTED] Insertion point position when editing a protein sequence__REPLACE_OR_REMOVE__MarkDown_Okay
+- [CORRECTED] Insertion point position when editing a protein sequence
     </releaseNotes>
     <!-- =============================== -->      
   </metadata>
