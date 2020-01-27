@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <!-- == PACKAGE SPECIFIC SECTION == -->
+    <id>serialcloner</id>
+    <version>2.6.1</version>
+    <packageSourceUrl>https://github.com/overag3/serialcloner</packageSourceUrl>
+    <owners>overage</owners>
+    <!-- ============================== -->
+
+    <!-- == SOFTWARE SPECIFIC SECTION == -->
+    <title>Serial Cloner</title>
+    <authors>SerialBasics</authors>
+    <projectUrl>http://serialbasics.free.fr/Serial_Cloner.html</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/overag3/purplepen/SerialCloner.png</iconUrl>
+    <tags>serialcloner molecular biology dna</tags>
+    <summary>Serial Cloner is a Molecular Biology software. It provides tools with an intuitive interface that assists you in DNA cloning, sequence analysis and visualization.</summary>
+    <description>
+Serial Cloner has been developed to provide a light yet powerful molecular biology software to Windows users.  
+Serial Cloner reads and write DNA Strider-compatible files and import and export files in the universal FASTA format.  
+Serial Cloner also import files saved in the Vector NTI, MacVector, ApE, DNAstar, pDRAW32 and GenBank formats. Import from VectorNTI multi-file format is also supported.  
+Powerful graphical display tools and simple interfaces help the analysis and construction steps in a very intuitive way. Serial Cloner handles Annotations and Features both in the sequence and in the Graphic Map and can automatically scan for sequence Features.
+    </description>
+    <releaseNotes>
+## Version 2.6.1
+- [ADDED] a preference to limit or not the width of Seq and Prot windows
+- [CORRECTED] Detection of overlapping Primers in PCR
+- [CORRECTED] Bug in "show info" toggle under Windows and Linux
+- [CORRECTED] Slow down under certain Windows install due to autosaving
+- [CORRECTED] Error in definition of PreScission site
+- [CORRECTED] Save/Save As problem is PCR window
+- [CORRECTED] Insertion point position when editing a protein sequence__REPLACE_OR_REMOVE__MarkDown_Okay
+    </releaseNotes>
+    <!-- =============================== -->      
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
